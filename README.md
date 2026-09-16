@@ -1,8 +1,8 @@
-# 🎧 Turntable — Music Player
+🎧 Turntable — Music Player
 
 A single-file, vinyl-themed web music player. No build tools, no backend — just open the HTML file and play your local music library right in the browser, with a full set of player features baked in.
 
-## ✨ Features
+✨ Features
 
 - 🎨 **Vinyl turntable UI** — a spinning disc and tonearm that animate with playback, with a per-track accent color
 - ▶️ Play / pause, next / previous, seek bar, and volume control
@@ -21,7 +21,7 @@ A single-file, vinyl-themed web music player. No build tools, no backend — jus
 - 🔑 Simple login gate (name/guest — client-side only, no real authentication/backend)
 - 📱 PWA-ready (manifest link + apple touch icon) and fully responsive, with a mini-player bar
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 Pure **HTML5, CSS3, and vanilla JavaScript** — everything lives in a single `.html` file. No frameworks, no build step, no dependencies.
 
@@ -37,7 +37,7 @@ turntable-music-player/
 └── music-player.html   # everything — markup, styles, and script — in one file
 ```
 
-## 🚀 Getting Started
+🚀 Getting Started
 
 No installation or build step needed.
 
@@ -47,7 +47,7 @@ No installation or build step needed.
 
 > Because it's a self-contained HTML file, you can also just double-click it — no local server required.
 
-## 🎧 Usage
+🎧 Usage
 
 - **Add music**: click **+ Add song** and select audio files from your device.
 - **Control playback**: use the transport buttons, or space bar to play/pause and arrow keys to skip tracks.
@@ -57,7 +57,7 @@ No installation or build step needed.
 - **Sound**: open the tools panel to adjust bass/treble, toggle crossfade, or set a sleep timer.
 - **Shortcuts**: press `?` any time to see the full keyboard shortcut list.
 
-### Keyboard Shortcuts
+Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
@@ -67,25 +67,14 @@ No installation or build step needed.
 | `L` | Favorite / unfavorite current track |
 | `?` | Toggle shortcuts overlay |
 
-## ⚠️ Notes
+⚠️ Notes
 
 - Tracks added via **+ Add song** are loaded from local files in your browser session (via `URL.createObjectURL`) — they aren't uploaded anywhere, but they also won't persist after a page refresh unless you re-add them. Exported/imported playlists store file references as JSON, not the audio itself.
 - The login screen is a UI flow only — it does not authenticate against any server or store credentials.
 
-## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m "Add your feature"`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-## 📄 License
+ 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 👤 Author
 
-- **Your Name** — [GitHub](https://github.com/your-username)
